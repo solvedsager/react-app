@@ -1,19 +1,19 @@
 let resumeData = {
     "imagebaseurl":"https://solvedsager.github.io/",
-    "name": "Sager Brown-Bryant",
+    "name": "Sager Brown",
     "role": "Full Stack Developer",
-    "linkedinId":"Your LinkedIn Id",
+    "linkedinId":"https://www.linkedin.com/in/sager-brown-7736a5138/",
     "skypeid": "Your skypeid",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/sager-brown-7736a5138/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/solvedsager",
           "className":"fa fa-github"
         },
         {
@@ -22,39 +22,32 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a web developer and designer with years of freelance experience. I'm intested in all forms of visual communication, but my major focus is on improving UI for web, mobile, and tablet interfaces. I have also developed addtional branding and icon design skills along to way!",
+    "address":"Austin, TX",
+    "email":"sager.brown@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
+        "UniversityName":"The University of Texas at Austin",
+        "specialization":"Bachelors of Science in Biology",
+        "MonthOfPassing":"Dec",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Certificate in Health IT and Informatics, Elements of Computing Certificate"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"Texas Organization of Rural and Community Hospitals(TORCH)",
+        "specialization":"front end developer",
+        "MonthOfLeaving":"Sept",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"helped developed web dashboard for hospitals to share data"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Imperial Solutions",
+        "specialization":"safety consultant",
+        "MonthOfLeaving":"Oct",
+        "YearOfLeaving":"2018-",
+        "Achievements":"oversaw safety of $100 million Westlake property"
       }
     ],
     "skillsDescription":"Your skills here",
@@ -66,29 +59,32 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"React JS"
+      },
+      {
+        "skillname":"Vanilla JS"
       }
     ],
     "portfolio":[
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/girl.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/portfolio/coffee.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/portfolio/console.jpg"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/origami.jpg"
       }
     ],
     "testimonials":[
