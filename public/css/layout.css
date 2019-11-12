@@ -248,8 +248,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 240px;
+   height: 240px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -371,15 +371,15 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.javascript {
+  	width: 75%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.react {
+  	width: 75%;
+  	-moz-animation: react 2s ease;
+  	-webkit-animation: react 2s ease;
 }
 .css {
   	width: 90%;
@@ -391,23 +391,23 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.php {
+  	width: 55%;
+  	-moz-animation: php 2s ease;
+  	-webkit-animation: php 2s ease;
 }
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes php {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -417,22 +417,22 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 75%;  }
 }
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes php {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
@@ -442,9 +442,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 75%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -877,7 +877,6 @@ call-to-action .button {
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
    width: 26%;
 }
 #contact input,
@@ -891,7 +890,7 @@ call-to-action .button {
 	outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
+   width: 100%;
 }
 #contact input:focus,
 #contact textarea:focus,

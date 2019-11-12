@@ -68,10 +68,6 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
-
    				<div className="bars">
 
    				   <ul className="skills">

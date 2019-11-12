@@ -19,29 +19,27 @@ const ContactUs = (props) => {
     return (
       <section id="contact">
           <div className="row section-head">
-            <div className="ten columns">
-              <h2>Contact Me</h2>
 
-              <Form onSubmit={e => {
+            <div className="ten columns">
+
+              <Form  className="contactForm push" onSubmit={e => {
                 e.preventDefault();
               }}>
-              <FormGroup>
-                <Label for="exampleName">Name</Label>
+              <h2 className="header">Contact Me</h2>
+
+              <FormGroup className="stretch">
                 <Input type="name" name="name" id="exampleName" value={name} onChange={e => onChange(e)} placeholder="Name" />
               </FormGroup>
                <FormGroup>
-                 <Label for="exampleEmail">Email</Label>
                  <Input type="email" name="email" id="exampleEmail" value={email} onChange={e => onChange(e)} placeholder="Email" />
                </FormGroup>
                <FormGroup>
-                 <Label for="exampleSubject">Subject</Label>
                  <Input type="subject" name="subject" id="exampleSubject" value={subject} onChange={e => onChange(e)} placeholder="Subject" />
                </FormGroup>
                <FormGroup>
-                 <Label for="exampleMessage">Message</Label>
-                 <Input type="textarea" name="message" value={message} onChange={e => onChange(e)} id="exampleMessage" />
+                 <Input type="textarea" name="message" value={message} onChange={e => onChange(e)} id="exampleMessage" placeholder="Message"  />
                </FormGroup>
-               <Button>Submit</Button>
+               <Button className="blue">Submit</Button>
              </Form>
             </div>
           </div>

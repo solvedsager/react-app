@@ -37,6 +37,27 @@ e. Others
       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.linkButton {
+  background: #11ABB0;
+  text-align: center;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -44,7 +65,7 @@ del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
 b, i,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
@@ -764,6 +785,7 @@ properly.
 @media screen and (min-width: 1200px) {
 
    .wide .row { max-width: 1180px; }
+   .push {margin-left: 150px;}
 
 }
 
