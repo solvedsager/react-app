@@ -84,7 +84,7 @@ let resumeData = {
       {
         "name":"Imperial Solutions",
         "description":"landing page",
-        "imgurl":"images/portfolio/imp.png",
+        "imgurl":"images/portfolio/imperial.png",
         "location": "https://solvedsager.github.io/imperialtraffic/"
 
       },
