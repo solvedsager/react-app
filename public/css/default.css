@@ -45,6 +45,12 @@ e. Others
   border-radius: 3px;
 }
 
+.test {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 .linkButton {
   background: #11ABB0;
   text-align: center;

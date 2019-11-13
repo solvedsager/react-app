@@ -4,8 +4,11 @@
   "homepage": "https://solvedsager.github.io/react-portfolio",
   "private": true,
   "dependencies": {
+    "aphrodite": "^2.4.0",
     "gh-pages": "^2.0.1",
+    "radium": "^0.26.0",
     "react": "^16.11.0",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "2.1.1",

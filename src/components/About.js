@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
+import { bounce } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
+
+const styles = {
+  bounce: {
+    animation: 'x 10s',
+    animationName: Radium.keyframes(bounce, 'bounce')
+  }
+}
+
 export default class About extends Component {
+
   render() {
+
     let resumeData = this.props.resumeData;
+
     return (
       <section id="about">
          <div className="row">
+         <StyleRoot>
+           <div className="three columns test " style={styles.bounce}>
+              <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+           </div>
+        </StyleRoot>
 
-            <div className="three columns">
-
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-            </div>
 
             <div className="nine columns main-col">
 

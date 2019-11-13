@@ -1,34 +1,32 @@
 import React, { Component, useState,Fragment } from 'react';
 import PropTypes from 'prop-types';
-import { tada } from 'react-animations';
-import Radium, {StyleRoot} from 'radium';
-const styles = {
-  tada: {
-    animation: 'x 10s',
-    animationName: Radium.keyframes(tada, 'tada')
-  }
-}
 
-const Portfolio = ({ resumeData: {portfolio, name, description, location}}) => {
+
+
+const Portfolio = (resumeData) => {
     const [displaySocialInputs, toggleSocialInputs] = useState(false);
 
     return (
       <section id="portfolio">
       <div className="row">
-        <div className="twelve columns collapsed test">
-        <StyleRoot>
-          <div className="test" style={styles.tada}>
+        <div className="twelve columns collapsed">
+          <h1>Check Out Some of My Works.</h1>
+
+          <div id="portfolio-wrapper hide" className="bgrid-quarters s-bgrid-thirds cf">
+          <div className="my-2">
             <button onClick={() => toggleSocialInputs(!displaySocialInputs)} type="button" className="btn btn-light">
-              Check Out Some of My Works
+              Add Social Network Links
             </button>
           </div>
-        </StyleRoot>
-          <div id="portfolio-wrapper hide" className="bgrid-quarters s-bgrid-thirds cf">
-
 
           {displaySocialInputs && <Fragment>
 
-            {portfolio && portfolio.map((item)=>{
+            <div className="form-group social-input">
+              <i className="fab fa-twitter fa-2x"></i>
+              <input type="text" placeholder="Twitter URL" name="twitter"/>
+            </div>
+
+            {resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">

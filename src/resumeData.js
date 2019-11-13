@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am a web developer and designer with freelance experience. I'm intested in all forms of development, but my major focus is on improving UI for web, mobile, and tablet interfaces. I have the most experience using the MERN stack. ",
+    "aboutme":"I am a self-taught web developer/designer with freelance experience. I'm intested in all forms of development, but my major focus is on improving UI for web, mobile, and tablet interfaces. I have the most experience using the MERN stack. ",
     "address":"Austin, TX",
     "email":"sager.brown@gmail.com",
     "education":[
