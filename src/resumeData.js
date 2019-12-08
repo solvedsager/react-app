@@ -79,7 +79,7 @@ let resumeData = {
         "name":"TORCH Dashboard",
         "description":"dashboard for hospitals to share and analyze data",
         "imgurl":"images/portfolio/torch.png",
-        "location": "https://blooming-mesa-07205.herokuapp.com/"
+        "location": "https://blooming-mesa-07216.herokuapp.com/"
       },
       {
         "name":"Imperial Solutions",
